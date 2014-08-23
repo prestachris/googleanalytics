@@ -75,7 +75,7 @@ class Googleanalytics extends Module
 			!$this->registerHook('actionProductCancel') ||
 			!$this->registerHook('actionCartSave') ||
 			!$this->registerHook('displayShoppingCart'))
-			
+
 		return false;
 
 		//drop transaction table
